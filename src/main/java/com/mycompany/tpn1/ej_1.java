@@ -15,6 +15,6 @@ public class ej_1 {
         String nombre = "Ivan Millan";
         
         System.out.println("Bienvenido " + nombre);
-        
+           
     }
 }
