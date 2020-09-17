@@ -16,10 +16,11 @@ public class ej_2 {
         String nombre;
         Scanner sc = new Scanner(System.in);
         
-        nombre = JOptionPane.showInputDialog("Introduce tu nombre.");
+        System.out.println("Introduce tu nombre: ");
+        nombre = sc.nextLine();
         System.out.println("Bienvenido " + nombre);
         
-        nombre = sc.nextLine();
+        nombre = JOptionPane.showInputDialog("Introduce tu nombre.");
         System.out.println("Bienvenido " + nombre);
         
     }
